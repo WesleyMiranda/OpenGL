@@ -1,0 +1,9 @@
+﻿  Origem.cpp
+c:\users\sti\source\repos\opengl\monkey\monkey\monkey\origem.cpp(136): warning C4018: '<': incompatibilidade de signed/unsigned
+c:\users\sti\source\repos\opengl\monkey\monkey\monkey\origem.cpp(166): warning C4018: '<': incompatibilidade de signed/unsigned
+c:\users\sti\source\repos\opengl\monkey\monkey\monkey\origem.cpp(150): warning C4101: 'a': variável local não referenciada
+c:\users\sti\source\repos\opengl\monkey\monkey\monkey\origem.cpp(150): warning C4101: 'e': variável local não referenciada
+c:\users\sti\source\repos\opengl\monkey\monkey\monkey\origem.cpp(150): warning C4101: 'b': variável local não referenciada
+c:\users\sti\source\repos\opengl\monkey\monkey\monkey\origem.cpp(150): warning C4101: 'c': variável local não referenciada
+c:\users\sti\source\repos\opengl\monkey\monkey\monkey\origem.cpp(150): warning C4101: 'd': variável local não referenciada
+  Monkey.vcxproj -> C:\Users\STI\source\repos\OpenGL\Monkey\Monkey\Debug\Monkey.exe

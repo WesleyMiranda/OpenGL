@@ -1,0 +1,6 @@
+﻿  MyObj.cpp
+  Origem.cpp
+c:\users\sti\source\repos\opengl\carregaobjeto\carregaobjeto\origem.cpp(92): warning C4018: '<': incompatibilidade de signed/unsigned
+c:\users\sti\source\repos\opengl\carregaobjeto\carregaobjeto\origem.cpp(111): warning C4018: '<': incompatibilidade de signed/unsigned
+  Gerando Código...
+  CarregaObjeto.vcxproj -> C:\Users\STI\source\repos\OpenGL\CarregaObjeto\Debug\CarregaObjeto.exe
