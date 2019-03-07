@@ -4,4 +4,4 @@ c:\users\sti\source\repos\opengl\sistema sol-terra-lua\project\project\origem.cp
 c:\users\sti\source\repos\opengl\sistema sol-terra-lua\project\project\origem.cpp(130): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
 c:\users\sti\source\repos\opengl\sistema sol-terra-lua\project\project\origem.cpp(138): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
 c:\users\sti\source\repos\opengl\sistema sol-terra-lua\project\project\origem.cpp(154): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
-  Project.vcxproj -> C:\Users\STI\source\repos\OpenGL\Sistema sol-terra-lua\Project\Debug\Project.exe
+  Project.vcxproj -> C:\Users\STI\source\repos\opengl\Sistema sol-terra-lua\Project\Debug\Project.exe

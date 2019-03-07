@@ -1,0 +1,4 @@
+﻿  Origem.cpp
+c:\users\sti\source\repos\opengl\perceptron 2.0\origem.cpp(34): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+c:\users\sti\source\repos\opengl\perceptron 2.0\origem.cpp(45): warning C4244: 'argumento': conversão de 'double' para 'int', possível perda de dados
+  Perceptron 2.0.vcxproj -> C:\Users\STI\source\repos\opengl\Perceptron 2.0\Debug\Perceptron 2.0.exe

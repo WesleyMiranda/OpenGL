@@ -1,5 +1,5 @@
 #include <GL/freeglut.h>
-
+#include <cmath>
 const int LARGURA = 800, ALTURA = 600, FPS = 35;
 float ang, ang2, ang3;
 
@@ -83,7 +83,7 @@ void desenha()
 
 	//Sol
 	glPushMatrix();
-	glRotatef(ang,0 , 1, 0);
+	glRotatef(ang, 0, 1, 0);
 	glColor3f(1, 1, 0);
 	glutSolidSphere(1, 20, 20);
 	glPopMatrix();
@@ -146,7 +146,7 @@ void desenha()
 	glColor3f(0, 0, 1);
 	glRotatef(ang2, 0, 1, 0);
 	glTranslatef(11.5, 0, 0);
-	glutSolidSphere(0.6 , 20, 20);
+	glutSolidSphere(0.6, 20, 20);
 	glPopMatrix();
 
 	//Netuno
@@ -155,7 +155,7 @@ void desenha()
 	glRotatef(ang3, 0, 1, 0);
 	glTranslatef(13, 0, 0);
 	glutSolidSphere(0.5, 20, 20);
-	glPopMatrix();	
+	glPopMatrix();
 
 	//Plutão por que ninguém pode excluir ele do sistema
 	glPushMatrix();
@@ -164,6 +164,16 @@ void desenha()
 	glTranslatef(14, 0, 0);
 	glutSolidSphere(0.02, 20, 20);
 	glPopMatrix();
+
+	glBegin(GL_QUADS);
+	glVertex3f(1, 2, 0);
+	glVertex3f(-1, 2, 0);
+	glVertex3f(-1, 4, 4);
+	glVertex3f(1, 4, 0);
+	glEnd();
+
+	glMatrixMode(GL_MODELVIEW);
+	gluLookAt(14 * cos(ang), 0, 14 * sin(ang), 0, 0, 0, 1, -1, 0);
 
 	//glRotatef(ang2, 0, 1, 0.5);
 
